@@ -1,10 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-
 import React, { useState, useEffect } from "react";
-
-
     const links = [
         {
             href:"/Founder",
@@ -24,18 +21,17 @@ import React, { useState, useEffect } from "react";
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
-      // If we scroll more than 20px, set scrolled to true
       setScrolled(window.scrollY > 20);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 return(
-    <nav className=" sticky top-0 z-50 flex items-center justify-between px-4 py-4 transition-all duration-300">
+    <nav className= {`sticky top-0 z-50 flex items-center justify-between px-4 py-4 transition-all duration-300
+        ${scrolled ? "bg-white/80 backdrop-blur-md shadow-sm border-b" : "bg-transparent"}
+ `}>
         <Link href="/">
         <Image 
         src = "/logo.svg"
