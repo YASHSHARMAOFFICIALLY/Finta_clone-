@@ -1,4 +1,5 @@
 import { Container } from "./component/container"
+import { Hero } from "./component/hero";
 import Navbar from "./component/navbar"
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
 
       <div className="absolute inset-0 max-w-6xl mx-auto pointer-events-none">
 
-        
+
         <div className="absolute inset-y-0 left-0 w-px bg-gradient-to-b from-neutral-200 via-neutral-300 to-transparent" />
      
         <div className="absolute inset-y-0 right-0 w-px bg-gradient-to-b from-neutral-200 via-neutral-300 to-transparent" />
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="relative w-full z-10">
         <Container>
           <Navbar />
+          <Hero />
         </Container>
       </div>
       

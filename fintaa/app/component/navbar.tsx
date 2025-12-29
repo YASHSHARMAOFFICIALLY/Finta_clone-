@@ -24,12 +24,12 @@ import { link } from "fs";
 
 export default function Navbar() {
 return(
-    <nav className="flex items-center justify-between px-4 py-4 bg-white shadow-sm">
+    <nav className="flex items-center justify-between px-4 py-4">
         <Link href="/">
         <Image 
         src = "/logo.svg"
-        height={50}
-        width={50}
+        height={200}
+        width={80}
         alt = "logo"
         />
         </Link>
@@ -47,7 +47,7 @@ return(
                 </Link>
                 );
             })}
-            <button className="bg-[#2579F4] px-4 py-2 rounded-lg text-bold shadow-lg text-shadow-md tracking-wide">Get Started</button>
+            <button className="bg-blue-600 px-3.5 py-2 rounded-lg text-bold shadow-lg text-shadow-md tracking-wide hover:bg-[#2262C7]">Get Started</button>
         </div>
     </nav>
 
