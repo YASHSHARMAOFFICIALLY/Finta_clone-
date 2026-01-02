@@ -2,6 +2,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
+
+
     const links = [
         {
             href:"/Founder",
@@ -28,6 +30,9 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+
+  
 return(
     <nav className= {`sticky top-0 z-50 flex items-center justify-between px-4 py-4 transition-all duration-300
         ${scrolled ? "bg-white/80 backdrop-blur-md shadow-sm border-b" : "bg-transparent"}
