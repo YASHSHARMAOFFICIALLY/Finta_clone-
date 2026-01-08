@@ -20,7 +20,7 @@ The objective of this project was to replicate the clean, modern aesthetic of Fi
 
 
 
-[Finta Clone Preview](./logo/hero.png)
+![Finta Clone Preview](./logo/hero.png)
 
 
 
