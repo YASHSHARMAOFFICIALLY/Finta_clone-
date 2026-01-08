@@ -20,7 +20,7 @@ Custom Hover States: Interactive elements built with Tailwind transitions.
 Optimized Assets: Lightweight and fast loading.
 
 📸 Preview
-Note: Add a screenshot of your work here to show off the UI! ![Finta Clone Preview](./screenshot.png)
+Note: Add a screenshot of your work here to show off the UI! ![Finta Clone Preview](./logo/hero.png.png)
 
 🛠 Tech Stack
 HTML5 - Semantic markup.
