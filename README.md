@@ -17,15 +17,12 @@ The objective of this project was to replicate the clean, modern aesthetic of Fi
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
-<<<<<<< HEAD
-📸 Preview
-Note: Add a screenshot of your work here to show off the UI! ![Finta Clone Preview](./logo/hero.png.png)
-=======
-## Tech Stack
->>>>>>> 853690d21849fff5f05e64179f4021e0a2312a0d
+
+[Finta Clone Preview](./logo/hero.png.png)
+
+
 
 🛠 Tech Stack HTML5 - Semantic markup.
 
