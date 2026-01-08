@@ -1,4 +1,6 @@
-Finta Landing Page (Hero Section) 🚀
+#Finta Landing Page (Hero Section) 🚀
+
+
 A high-fidelity clone of the Finta hero section, built as a practice project to master Tailwind CSS and responsive web design.
 
 🎯 Project Goal
